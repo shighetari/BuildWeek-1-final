@@ -1,0 +1,164 @@
+.newButton {
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #3d023f;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+html,
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: url("/assets/bg3.jpg");
+  background-color: red;
+}
+nav {
+  color: #c280c2;
+  padding: 0;
+  text-align: center;
+}
+a {
+  display: inline-block;
+  transition-duration: 0.4s;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 15%;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid green;
+}
+nav a:hover {
+  background-color: purple;
+  color: white;
+}
+.button {
+  transition-duration: 0.4s;
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #3d023f;
+  justify-content: space-around;
+  padding-top: 1%;
+}
+.button:hover {
+  background-color: purple;
+  color: white;
+}
+h1 {
+  color: #d610d6;
+  text-align: center;
+  border: 10px solid powderblue;
+  border-bottom: groove;
+  font-weight: bolder;
+}
+.container {
+  background-color: #3b1f3b;
+  opacity: 90%;
+}
