@@ -1,0 +1,82 @@
+// start of the about section
+
+// .pics {
+//     border: solid red;
+//     display: flex;
+//     max-width: 50%;
+//     max-height: 50%;
+//     flex-direction: column;
+//     justify-items: center;
+// }
+
+// .row {
+//     display: flex;
+//     flex-wrap: wrap;
+//     padding: 0 4px;
+//   }
+  
+//   /* Create two equal columns that sits next to each other */
+//   .column {
+//     flex: 50%;
+//     padding: 0 4px;
+//   }
+  
+//   .column img {
+//     margin-top: 8px;
+//     vertical-align: middle;
+//   }
+
+  // start of test hover
+
+  .aboutpics {
+      display: flex;
+      justify-content: center;
+  }
+  .container2 {
+
+    position: relative;
+    width: 20%;
+  
+
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  @media (max-width: 1400px){
+    .text { font-size:xx-small 
+
+    }
+     
+  }
