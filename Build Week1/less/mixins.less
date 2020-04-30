@@ -1,0 +1,48 @@
+.custom-btn(@bg-color:@button-bg,@button-text:@main-bg){
+    // display: block;
+    background-color:@bg-color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width:40%;
+    height: 35px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    color: @button-text;
+}
+
+.flexus(@justify,@align){
+    display:flex;
+    justify-content: @justify;
+   align-items:@align;
+    
+}
+
+.newButton {
+    transition-duration: 0.4s;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(61, 2, 63); 
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.overlay { 
+position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
